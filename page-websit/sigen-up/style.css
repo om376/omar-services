@@ -1,0 +1,355 @@
+
+ 
+
+body {
+ background-color:black;
+ border:none;
+ margin:0px;
+ padding:0px;
+ font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+div#p1, div#p2{
+ display:none;
+ z-index:0;
+}
+
+div#encloselogo1, div#encloselogo2{
+ text-align:center;
+}
+
+img#logo1, img#logo2{
+ height:45px;
+ user-select:none;
+}
+
+h2#p1heading1{
+ color:#d9d9d9;
+ margin-left:9%;
+ font-size:22.5px;
+}
+
+div#p1buttoncontainer1{
+ position:relative;
+}
+
+button#p1signin1{
+ width:82%;
+ height:43px;
+ border-radius:22.5px;
+ margin-left:9%;
+ margin-top:10px;
+ border:1px solid #d2e3fb;
+ padding-left:40px;
+ font-size:15px;
+ font-weight:450;
+ background-color:#ffffff;
+ transition:background-color 0.2s ease-out;
+}
+
+button#p1signin1:active{
+ background-color:#ecf2fe;
+}
+
+#txt1{
+ color:#3c4042;
+ user-select:none;
+}
+
+#txt2{
+ font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+ user-select:none;
+}
+
+img#p1button1logo{
+ position:absolute;
+ left:28%;
+ top:40%;
+ height:20px;
+}
+
+div#p1buttoncontainer2{
+ position:relative;
+}
+
+button#p1signin2{
+ width:82%;
+ height:38px;
+ border-radius:19px;
+ margin-left:9%;
+ margin-top:20px;
+ border:1px solid #2f3336;
+ padding-left:40px;
+ font-size:14px;
+ font-weight:600;
+ background-color:white;
+ transition:background-color 0.2s ease-out;
+}
+
+img#p1button2logo{
+ position:absolute;
+ left:31%;
+ top:48.5%;
+ height:20px;
+}
+
+button#p1signin2:active{
+ background-color:#cccccc;
+}
+
+#p1linecontainer1{
+ display:flex;
+ align-items:center;
+ width:82%;
+ margin-left:9%;
+}
+
+.p1line{
+ flex:1;
+ height:1px;
+ background-color:#2f3336;
+}
+
+#p1linetext{
+ color:#d9d9d9;
+ padding:0px 9px;
+ font-size:15px;
+ font-weight:300;
+}
+
+input#p1id{
+ width:80%;
+ height:50px;
+ align:center;
+ background-color:black;
+ color:#d8d8d8;
+ margin-left:8.5%;
+ margin-bottom:10px;
+ padding-left:10px;
+ border:1px solid #2f3336;
+ border-radius:4px;
+ outline-style:none;
+ outline-color:black;
+ -moz-transition: outline-color .1s ease-out;
+ -ms-transition: outline-color .1s ease-out;
+ -o-transition: outline-color .1s ease-out;
+ transition: outline-color .1s ease-out;
+ font-size:15px;
+}
+
+input#p1id::-webkit-input-placeholder {
+ font-size:15.5px;
+ user-select:none;
+}
+
+input#p1id:focus{
+ outline-style:solid;
+ outline-color:#007bff;
+ outline-width:2px;
+ border-color:black;
+}
+
+button#p1submit{
+ width:83.5%;
+ height:36px;
+ border-radius:18px;
+ margin-left:8.7%;
+ margin-top:20px;
+ border:none;
+ text-align:center;
+ user-select:none;
+ font-size:14px;
+ font-weight:600;
+ background-color:#eff3f4;
+ transition:background-color 0.2s ease-out;
+}
+
+button#p1submit:active{
+ background-color:#cccccc;
+}
+
+button#p1forgotpass{
+ width:83.5%;
+ height:36px;
+ border-radius:18px;
+ margin-left:8.7%;
+ margin-top:20px;
+ border:1px solid #526470;
+ text-align:center;
+ user-select:none;
+ font-size:14px;
+ font-weight:600;
+ background-color:black;
+ transition:background-color 0.2s ease-out;
+}
+
+button#p1forgotpass:active{
+ background-color:#303231;
+}
+
+#txt3{
+ font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+ user-select:none;
+ font-weight:600;
+ color:#edf1f3;
+}
+
+#p1noaccount{
+ color:#6d767d;
+ padding-left:8.7%;
+ margin-top:50px;
+ font-size:14px;
+}
+
+a#p1signup, a#p2signup{
+ text-decoration:none;
+ color:#1d9bf0;
+ background-color:black;
+}
+
+a#p1signup:onclick, a#p2forgotpassword:onclick, a#p2signup:onclick{
+ background-color:black;
+ text-decoration:underline;
+}
+
+a#p1signup:hover, a#p2forgotpassword:hover{
+ background-color:black;
+ text-decoration:underline;
+}
+
+#p1noid{
+ position:fixed;
+ width:100%;
+ height:40px;
+ bottom:0px;
+ background-color:#1d9bf0;
+ color:#ecfcfe;
+ padding-left:20px;
+ line-height:40px;
+ font-size:13px;
+ display:none;
+ z-index:60;
+}
+
+hr#p1lastline{
+ margin-top:26px;
+ border:2px solid #3c3c3c;
+}
+
+#loading{
+ display:none;
+ position:fixed;
+ width:100%;
+ height:100%;
+ left:0px;
+ top:0px;
+ text-align:center;
+ background-color:black;
+ z-index:50;
+}
+
+#loadinggif{
+ position:absolute;
+ top:45%;
+ left:30%;
+ width:40%;
+}
+
+h2#p2heading1{
+ color:#d9d9d9;
+ margin-left:9%;
+ font-size:24px;
+}
+
+#p2iddetails{
+ background-color:#101113;
+ width:81%;
+ height:48px;
+ color:#373b3e;
+ align:center;
+ margin-left:8.5%;
+ margin-bottom:10px;
+ padding-left:10px;
+ padding-top:7px;
+ border:none;
+ border-radius:4px;
+ font-size:16px;
+ overflow:scroll;
+ line-height:140%;
+}
+
+#p2passwordcontainer{
+ position:relative;
+}
+
+#p2password{
+ background-color:black;
+ width:80%;
+ height:57px;
+ color:#d9d9d9;
+ font-size:16px;
+ margin-left:8.5%;
+ margin-top:15px;
+ padding-left:10px;
+ border:1px solid #303335;
+ border-radius:4px;
+ overflow:scroll;
+ outline-style:solid;
+ outline-width:2px;
+ outline-color:black;
+ -moz-transition: outline-color .1s ease-out;
+ -ms-transition: outline-color .1s ease-out;
+ -o-transition: outline-color .1s ease-out;
+ transition: outline-color .1s ease-out;
+}
+
+#p2password:focus{
+ outline-color:#007bff;
+ border-color:black;
+}
+
+input#p2password::-webkit-input-placeholder {
+ font-size:15.5px;
+ user-select:none;
+}
+
+#p1noaccount, #p2noaccount{
+ color:#6d767d;
+ padding-left:8.7%;
+ margin-top:50px;
+ font-size:14px;
+}
+
+a#p2forgotpassword{
+ text-decoration:none;
+ margin-left:10%;
+ font-size:12px;
+ color:#1d9bf0;
+ background-color:black;
+}
+
+#p2showpassword{
+ position:absolute;
+ width:22px;
+ right:11%;
+ bottom:12%;
+}
+
+button#p2login{
+ margin-top:50%;
+ width:82%;
+ height:38px;
+ border-radius:19px;
+ text-align:center;
+ border:1px solid #2f3336;
+ font-size:14px;
+ margin-left:9%;
+ font-weight:600;
+ background-color:white;
+ transition:background-color 0.2s ease-out;
+}
+
+button#p2login:active{
+ background-color:#cccccc;
+}
+ 

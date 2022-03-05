@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Rampart+One&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lobster&family=Rampart+One&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit&family=Rampart+One&family=Rubik&display=swap');
+
+	
+	
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #343a40;
+    background-image: url(./images/wallpaper2you_322291.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.header{
+    padding-bottom: 50px;
+}
+.logo img{
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.logo h2{
+    float: left;
+    margin-top: 40px;
+    color: #ffb703;
+    font-family: 'Lobster', 'cursive';
+    margin-left: 5px;
+    font-size: 23px;
+    text-shadow: #000 4px 4px 3px;
+
+}
+.nav-bar ul li{
+    display:inline-flex;
+    margin-left: 120px;
+    margin-top:45px;
+    list-style: none;
+
+    
+
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #ffb703;
+    list-style: none;
+    font-family: 'kanit', sans-serif;
+    font-weight: 700;
+    transition: 0.4s;
+
+}
+.nav-bar a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+/*---------content----------*/
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10px;
+    width: 1040px ;
+    background-image:url(./images/back-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content:center;
+    box-shadow: #000 3px 4px 3px ;
+    border-radius: 10px;
+}
+
+.wrapper .main-cont{
+    margin-top: 15px;
+    margin-left: 30px;
+    
+
+}
+.main-cont #tit{
+    color: #ffb703;
+    font-family: 'Lobster', 'cursive';
+    font-size: 37px;
+    text-shadow: #000 4px 4px 3px;
+}
+.main-cont p{
+    color: #fb8500;
+    font-family: 'lobster';
+    margin-top: 10px;
+    font-size: 30px;
+    text-shadow: #000 3px 3px 4px;
+}
+#discount{
+    color: #fff;
+    font-family: 'kanit';
+    font-size: 20px;
+}
+.main-cont .delivery-pic img{
+    width: 150px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+.download-app ul li{
+    list-style: none;
+    display: inline;
+}
+.download-app a img{
+    width: 150px;
+    padding-bottom: 10px;
+}
+#get-app{
+    color: #ffb703;
+    font-family: 'Rubik';
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: px;
+}
+
+
+.wrapper .land-img img{
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 550px;
+}
+
+/*---------social---------*/
+
+.social{
+    position: absolute;
+    margin-top:-340px;
+    width: 30px;
+    height: 135px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+    box-shadow: #000 3px 5px 5px;
+}
+
+.social ul li {
+   padding-top:5px;
+   font-size: 25px;
+   list-style: none;
+}
+.social a{
+    color: #343a40;
+    transition: 0.4s;
+}
+.social  #you-tube:hover{
+    color: #c4302b ;
+}
+.social  #face-book:hover{
+    color: #3b5998 ;
+}
+.social  #twitter:hover{
+    color: #00acee ;
+}
+.social  #instagram:hover{
+    color: #8a3ab9;
+}
+h6{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 450px;
+    padding-bottom: -20px;
+
+}

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>login</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600&family=Raleway:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+
+ 
+ </head>
+ <body>
+ 
+ <div id="p1">
+ 
+ 
+ <h2 id="p1heading1">Sign </h2>
+ 
+ <div id="p1buttoncontainer1">
+ <button id="p1signin1"><span id="txt1">Sign in with Google</span></button>
+ <img id="p1button1logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png" />
+ </div>
+ <div id="p1buttoncontainer2">
+ <button id="p1signin2"><span id="txt2">Sign in with Apple</span></button>
+ <img id="p1button2logo" src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png" />
+ </div>
+ 
+ <div id="p1linecontainer1">
+ <div class="p1line"></div>
+ <h2 id="p1linetext">or</h2>
+ <div class="p1line"></div>
+ </div>
+ 
+ <form onsubmit="return recordid()">
+ <input id="p1id" type="text" placeholder="Phone, email or username">
+ <button id="p1submit" type="submit">Next</button>
+ </form>
+ 
+ <button id="p1forgotpass"><span id="txt3">Forgot password?</span></button>
+ 
+ <p id="p1noaccount">I' have an account! <a id="p1signup" href="sigen-up/index.html">Sign in</a></p>
+ 
+ <div id="p1noid">
+ Sorry, we could not find your account.
+ </div>
+ 
+ <hr id="p1lastline" >
+ </div>
+ 
+ <div id="loading">
+ <img id="loadinggif" src="https://i.pinimg.com/originals/24/07/b5/2407b512f6f2eec61cd2f3136242a025.gif" alt="loading..." />
+ </div>
+ 
+ <div id="p2">
+ <div id="encloselogo2">
+ <img id="logo2" src="https://i.ibb.co/423h0Pn/download.png" alt="Twitter logo.png" />
+ </div>
+ 
+ <h2 id="p2heading1">Enter your password</h2>
+ 
+ <div id="p2iddetails">
+ </div>
+ 
+ <div id="p2passwordcontainer">
+ <input id="p2password" type="password" placeholder="Password" >
+ <img id="p2showpassword" onclick="changeImg()" src="https://i.ibb.co/pWXhcxd/image-1.png" />
+ </div>
+ 
+ <a id="p2forgotpassword" href="#" onclick="func()">Forgot password?</a>
+ 
+ <button id="p2login" onclick="final()">Log up</button>
+ <p id="p2noaccount">I' have an account! <a id="p2signup" href="sigen-up/index.html">Sign in</a></p>
+ 
+ </div>
+ 
+  <script src="main.js"></script>
+ 
+ 
+ </body>
+</html>
